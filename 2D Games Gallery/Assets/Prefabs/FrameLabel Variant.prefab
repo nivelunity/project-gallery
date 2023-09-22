@@ -11,17 +11,32 @@ PrefabInstance:
     - target: {fileID: 2603997912043240318, guid: ea4bfe9fee408f948bbd1ab966e44bb6,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.07538268
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2603997912043240318, guid: ea4bfe9fee408f948bbd1ab966e44bb6,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.39171627
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2603997912043240318, guid: ea4bfe9fee408f948bbd1ab966e44bb6,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.5188679
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473276977449282907, guid: ea4bfe9fee408f948bbd1ab966e44bb6,
+        type: 3}
+      propertyPath: m_text
+      value: Nintendo Company, Ltd.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473276977449282907, guid: ea4bfe9fee408f948bbd1ab966e44bb6,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473276977449282907, guid: ea4bfe9fee408f948bbd1ab966e44bb6,
+        type: 3}
+      propertyPath: m_fontSizeMax
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6229756271575763123, guid: ea4bfe9fee408f948bbd1ab966e44bb6,
         type: 3}
