@@ -9,16 +9,24 @@ public class MusicManager : MonoBehaviour
     private List<AudioClip> audioClips;
 
     private AudioSource audioSource;
+    private int currentSong = 10;
+
 
     private void Awake()
     {
         audioSource = GetComponent<AudioSource>();
     }
 
+    private void Start()
+    {
+        ChangeBackgroundMusic(0);
+    }
+
     public void ChangeBackgroundMusic(int clipIndex)
     {
-        if (clipIndex > audioClips.Count) { return; }
+        if (clipIndex == currentSong) { return; }
 
+        currentSong = clipIndex;
         audioSource.clip = audioClips[clipIndex];
         audioSource.Play();
     }
